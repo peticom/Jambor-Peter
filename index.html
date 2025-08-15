@@ -1,43 +1,169 @@
 <!doctype html>
 <html lang="hu">
 <head>
-  <meta charset="utf-8" />
-  <title>HIR8 Archív – Válogatott közéleti cikkek</title>
-  <meta name="description" content="HIR8 válogatott közéleti és véleménycikkek egyszerű, gyors HTML formában. Szerző: Jámbor Péter és a HIR8 szerzői.">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://archive.hir8.com/">
-  <meta property="og:title" content="HIR8 Archív" />
-  <meta property="og:description" content="Válogatott HIR8-cikkek egyszerű HTML-ben." />
-  <meta property="og:type" content="website" />
-  <meta property="og:locale" content="hu_HU" />
+  <meta charset="utf-8">
+  <title>HIR8 – Válogatott kivonatok (Jámbor Péter)</title>
+  <meta name="description" content="Válogatott HIR8-kivonatok Jámbor Pétertől – közvetlen linkkel az eredeti cikkekhez. Gyors olvasás, pontos hivatkozás, erős szerzői jelölés.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="HIR8 – Válogatott kivonatok (Jámbor Péter)">
+  <meta property="og:description" content="Vélemények és elemzések rövid kivonatai, közvetlen linkekkel a HIR8.com-ra.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="hu_HU">
+  <meta name="robots" content="index,follow">
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 880px; margin: 0 auto; padding: 24px; line-height: 1.6; }
-    .grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
-    .card { border: 1px solid #ddd; padding: 16px; border-radius: 12px; }
-    .muted { color: #555; font-size: 0.95rem; }
-    a { text-decoration: none; } a:hover { text-decoration: underline; }
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;max-width:880px;margin:0 auto;padding:24px;line-height:1.65}
+    header,footer{margin:16px 0}
+    .item{border:1px solid #e3e3e3;border-radius:14px;padding:16px;margin:12px 0}
+    .meta{color:#666;font-size:.95rem}
+    a{text-decoration:none} a:hover{text-decoration:underline}
+    h1{margin-bottom:6px}
   </style>
+
+  <!-- Strukturált adatok: a lista + minden elem külön NewsArticle-ként -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "name":"HIR8 – Válogatott kivonatok (Jámbor Péter)",
+    "itemListElement":[
+      {
+        "@type":"ListItem","position":1,
+        "item":{
+          "@type":"NewsArticle",
+          "headline":"Anyu, haza fogunk költözni",
+          "url":"https://hir8.com/anyu-haza-fogunk-koltozni/",
+          "datePublished":"2025-05-22",
+          "author":{"@type":"Person","name":"Jámbor Péter"}
+        }
+      },
+      {
+        "@type":"ListItem","position":2,
+        "item":{
+          "@type":"NewsArticle",
+          "headline":"Soha többé kétharmad",
+          "url":"https://hir8.com/soha-tobbe-ketharmad/",
+          "datePublished":"2025-07-17",
+          "author":{"@type":"Person","name":"Jámbor Péter"}
+        }
+      },
+      {
+        "@type":"ListItem","position":3,
+        "item":{
+          "@type":"NewsArticle",
+          "headline":"Én ott leszek",
+          "url":"https://hir8.com/en-ott-leszek/",
+          "datePublished":"2025-06-29",
+          "author":{"@type":"Person","name":"Jámbor Péter"}
+        }
+      },
+      {
+        "@type":"ListItem","position":4,
+        "item":{
+          "@type":"NewsArticle",
+          "headline":"Sokan váltak „immunissá” egy súlyos rákos betegségre a falvakban",
+          "url":"https://hir8.com/sokan_valtak_immunissa_egy_sulyos_rakos_betegsegre_a_falvakban_423/",
+          "datePublished":"2025-08-07",
+          "author":{"@type":"Person","name":"Jámbor Péter"}
+        }
+      },
+      {
+        "@type":"ListItem","position":5,
+        "item":{
+          "@type":"NewsArticle",
+          "headline":"A fideszes etika",
+          "url":"https://hir8.com/a-fideszes-etika/",
+          "author":{"@type":"Person","name":"Jámbor Péter"}
+        }
+      },
+      {
+        "@type":"ListItem","position":6,
+        "item":{
+          "@type":"NewsArticle",
+          "headline":"Búz a Balatonnál",
+          "url":"https://hir8.com/buz-a-balatonnal/",
+          "author":{"@type":"Person","name":"Jámbor Péter"}
+        }
+      },
+      {
+        "@type":"ListItem","position":7,
+        "item":{
+          "@type":"NewsArticle",
+          "headline":"Ügyes, nagyon ügyes",
+          "url":"https://hir8.com/ugyes-nagyon-ugyes/",
+          "author":{"@type":"Person","name":"Jámbor Péter"}
+        }
+      },
+      {
+        "@type":"ListItem","position":8,
+        "item":{
+          "@type":"NewsArticle",
+          "headline":"A remény rabjai",
+          "url":"https://hir8.com/a-remeny-rabjai/",
+          "author":{"@type":"Person","name":"Jámbor Péter"}
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header>
-    <h1>HIR8 Archív</h1>
-    <p class="muted">Válogatott HIR8-cikkek egyszerű, gyors HTML-ben. Szerzők: többek között <a href="/jambor-peter/">Jámbor Péter</a>.</p>
+    <h1>HIR8 – Válogatott kivonatok</h1>
+    <p class="meta">Szerző: <strong>Jámbor Péter</strong> • Rövid kivonatok, <em>közvetlen linkek</em> az eredeti HIR8‑cikkekre.</p>
   </header>
 
-  <main class="grid">
-    <article class="card"><h2><a href="/cikkek/anyu-haza-fogunk-koltozni.html">Anyu, haza fogunk költözni</a></h2><p class="muted">Szerző: <a href="/jambor-peter/">Jámbor Péter</a></p><p>Vázlat a személyes és közérdekű tapasztalatok találkozásáról: mit jelent a hazatérés dilemmája a mai társadalmi viszonyok között.</p></article>
-    <article class="card"><h2><a href="/cikkek/soha-tobbe-ketharmad.html">Soha többé kétharmad</a></h2><p class="muted">Szerző: <a href="/jambor-peter/">Jámbor Péter</a></p><p>Intézményi tanulságok és demokratikus biztosítékok – hogyan kerülhető el a tartós túlhatalom kialakulása?</p></article>
-    <article class="card"><h2><a href="/cikkek/en-ott-leszek.html">Én ott leszek</a></h2><p class="muted">Szerző: <a href="/jambor-peter/">Jámbor Péter</a></p><p>Közéleti jelenlét és felelősség: miért számít, hogy állampolgárként megjelenünk a fontos pillanatokban.</p></article>
-    <article class="card"><h2><a href="/cikkek/sokan-valtak-immunissa-falvakban.html">Sokan váltak „immunissá” egy súlyos rákos betegségre a falvakban</a></h2><p class="muted">Szerző: <a href="/jambor-peter/">Jámbor Péter</a></p><p>Egészségügyi hozzáférés és vidéki egyenlőtlenségek: mi látszik a statisztikák és a tereptapasztalatok metszéspontján.</p></article>
-    <article class="card"><h2><a href="/cikkek/a-fideszes-etika.html">A fideszes etika</a></h2><p class="muted">Szerző: <a href="/jambor-peter/">Jámbor Péter</a></p><p>Hatalomgyakorlás, lojalitás és közpénz: működik-e a közérdeki mérce a párthűség logikájában?</p></article>
-    <article class="card"><h2><a href="/cikkek/buz-a-balatonnal.html">Búz a Balatonnál</a></h2><p class="muted">Szerző: <a href="/jambor-peter/">Jámbor Péter</a></p><p>Turizmus, élhetőség és partmenti fejlesztések – hogyan formálják a helyiek életét a „nagy” projektek?</p></article>
-    <article class="card"><h2><a href="/cikkek/ugyes-nagyon-ugyes.html">Ügyes, nagyon ügyes</a></h2><p class="muted">Szerző: <a href="/jambor-peter/">Jámbor Péter</a></p><p>Politikai technika vs. közérdek: amikor a kreatív megoldás a felelősséget takarja el.</p></article>
-    <article class="card"><h2><a href="/cikkek/a-remeny-rabjai.html">A remény rabjai</a></h2><p class="muted">Szerző: <a href="/jambor-peter/">Jámbor Péter</a></p><p>Mi tartja mozgásban a közösségeket nehéz időkben? A remény működése közéleti nézőpontból.</p></article>
-  </main>
+  <section class="item">
+    <h2><a href="https://hir8.com/anyu-haza-fogunk-koltozni/" rel="noopener">Anyu, haza fogunk költözni</a></h2>
+    <p class="meta">Megjelenés: 2025. május 22.</p>
+    <p>A „hazahozó” ígéretek mögötti valóság: a visszaköltözés nem csak érzelem, hanem lakhatási, munkaerőpiaci és közszolgáltatási kérdés. A cikk arra mutat rá, hogy a közösségi infrastruktúra minősége döntően befolyásolja a maradás/visszatérés esélyeit.</p>
+  </section>
+
+  <section class="item">
+    <h2><a href="https://hir8.com/soha-tobbe-ketharmad/" rel="noopener">Soha többé kétharmad</a></h2>
+    <p class="meta">Megjelenés: 2025. július 17.</p>
+    <p>Intézményi fékek és ellensúlyok, tisztességes választási szabályok és aktív polgári részvétel – így kerülhető el a tartós túlhatalom újratermelődése. A szöveg nem revansot, hanem kiszámítható, közérdekre hangolt kormányzást sürget.</p>
+  </section>
+
+  <section class="item">
+    <h2><a href="https://hir8.com/en-ott-leszek/" rel="noopener">Én ott leszek</a></h2>
+    <p class="meta">Megjelenés: 2025. június 29.</p>
+    <p>A demokrácia jelenlétet kíván: közmeghallgatás, tüntetés, szavazás – a részvétel a közösségi önbecsülés és az elszámoltathatóság alapja. A felhívás a „nézőkből szereplővé” válásról szól.</p>
+  </section>
+
+  <section class="item">
+    <h2><a href="https://hir8.com/sokan_valtak_immunissa_egy_sulyos_rakos_betegsegre_a_falvakban_423/" rel="noopener">Sokan „immunissá” váltak a falvakban</a></h2>
+    <p class="meta">Megjelenés: 2025. augusztus 7.</p>
+    <p>Egészségügyi hozzáférés és vidéki egyenlőtlenségek: a késői diagnózis, a hozzáférési akadályok és az információs periféria egymásra erősít. Javasolt irány a preventív ellátás és a szűrések tényleges elérhetősége.</p>
+  </section>
+
+  <section class="item">
+    <h2><a href="https://hir8.com/a-fideszes-etika/" rel="noopener">A fideszes etika</a></h2>
+    <p class="meta">Megjelenés: n.a.</p>
+    <p>Lojalitás, közpénz és hatalmi technikák: mikor és hogyan írja felül a párthűség a közérdeket? Konkrét ügyek mentén rajzolódik ki az etikai kettős mérce működése.</p>
+  </section>
+
+  <section class="item">
+    <h2><a href="https://hir8.com/buz-a-balatonnal/" rel="noopener">Búz a Balatonnál</a></h2>
+    <p class="meta">Megjelenés: n.a.</p>
+    <p>„Fejlesztés” és élhetőség konfliktusa a Balaton-parton: kik nyernek és kik veszítenek, amikor a beruházási logika felülírja a helyiek szempontjait és a környezeti korlátokat?</p>
+  </section>
+
+  <section class="item">
+    <h2><a href="https://hir8.com/ugyes-nagyon-ugyes/" rel="noopener">Ügyes, nagyon ügyes</a></h2>
+    <p class="meta">Megjelenés: n.a.</p>
+    <p>Amikor a bravúros politikai technika a felelősség elsimításának eszközévé válik, a közérdek láthatatlanná lesz. A rövid esszé a „trükk kontra elszámoltathatóság” ellentmondásáról szól.</p>
+  </section>
+
+  <section class="item">
+    <h2><a href="https://hir8.com/a-remeny-rabjai/" rel="noopener">A remény rabjai</a></h2>
+    <p class="meta">Megjelenés: n.a.</p>
+    <p>A remény kettős arca: erőforrás, ha cselekvést táplál, de kockázat, ha a várakozás a cselekvés helyére lép. A cikk a közösségi cselekvés és a stabil intézmények szerepét hangsúlyozza.</p>
+  </section>
 
   <footer>
-    <p class="muted">Eredeti cikkek: <a href="https://hir8.com">HIR8.com</a> • Archív: <a href="https://archive.hir8.com">archive.hir8.com</a></p>
+    <p class="meta">Forrás: <a href="https://hir8.com/jambor-peter/">HIR8 – Jámbor Péter cikkek</a></p>
   </footer>
 </body>
 </html>
 
+  
